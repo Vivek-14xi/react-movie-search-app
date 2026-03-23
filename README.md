@@ -75,7 +75,7 @@ Movie-App/
 ---
 
 ## ⚙️ Installation & Setup
-git clone <your-repo-url>
+git clone https://github.com/Vivek-14xi/react-movie-search-app.git
 cd Movie-App
 npm install
 npm start
