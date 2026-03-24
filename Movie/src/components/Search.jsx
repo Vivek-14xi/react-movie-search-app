@@ -47,7 +47,6 @@ export default function Search() {
         <input
           type="text"
           value={name}
-          className="search-input"
           onChange={handleChange}
         />
         <button className="search button" type="submit"  onSubmit={handleSubmit}>

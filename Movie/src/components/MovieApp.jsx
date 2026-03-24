@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 import Search from './Search';
 import "./MovieApp.css";
-import MovieCard from './MovieCard';
 
 export default function MovieApp() {
   return (
