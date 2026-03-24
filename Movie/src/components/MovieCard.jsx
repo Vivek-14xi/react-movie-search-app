@@ -1,9 +1,11 @@
 import React from 'react'
-
-export default function MovieCard() {
+import "./MovieCard.css"
+export default function MovieCard({ movieName }) {
   return (
-    <div>
-      
+    <div className="card">
+      <img src={movieName.Poster} alt={movieName.Title} className=""/>
+      <h3>{movieName.Title}</h3>
+      <p class>{movieName.Year}</p>
     </div>
   )
 }
